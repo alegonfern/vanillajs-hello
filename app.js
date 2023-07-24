@@ -9,7 +9,7 @@ function domain_gen(pronouns, adjs, nouns) {
     for (const pronoun of pronouns) {
         for (const adj of adjs) {
             for (const noun of nouns) {
-                const dominio = `${pronoun}${adj}${noun}`;
+                const dominio = `${pronoun}${adj}${noun}.cl`;
 
                 dominios.push(dominio);
 
